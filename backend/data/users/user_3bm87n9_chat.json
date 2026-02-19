@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg_20250530160056157066",
+    "sender": "user",
+    "text": "hello,i feel stressed",
+    "timestamp": "2025-05-30T16:00:56.158067"
+  },
+  {
+    "id": "msg_20250530160056162167",
+    "sender": "assistant",
+    "text": "Hello user_3bm87n9, I'm so glad you reached out. It's completely normal to feel stressed, especially when you're working on quitting smoking. You're doing great, by the way - 7 days smoke-free is a huge accomplishment! \n\nStress can be a common trigger for nicotine cravings, but since your craving level is currently 0",
+    "timestamp": "2025-05-30T16:00:56.162167"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "user_i08y6dk",
+    "message": "hi",
+    "timestamp": "2025-05-28T16:39:54.817943",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_i08y6dk",
+    "message": "Hi, how are you doing?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T16:40:42.954016",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_i08y6dk",
+    "message": "i am stressed",
+    "timestamp": "2025-05-28T16:41:10.041518",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_i08y6dk",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T16:41:52.712505",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_i08y6dk",
+    "message": "yo",
+    "timestamp": "2025-05-28T16:41:59.323730",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_i08y6dk",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T16:42:42.024839",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

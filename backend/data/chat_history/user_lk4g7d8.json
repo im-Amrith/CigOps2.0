@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_lk4g7d8",
+    "message": "hello",
+    "timestamp": "2025-05-29T13:10:05.485532",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_lk4g7d8",
+    "message": "Hey Rako! It's great to see you again. I remember you're working hard to stay smoke-free, and I'm here to support you. You've got this! What's on your mind right now, and how can I help?",
+    "timestamp": "2025-05-29T13:10:11.807010",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

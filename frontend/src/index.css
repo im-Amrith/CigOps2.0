@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fffff5;
+  color: #292929;
+  overflow-x: hidden;
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(254, 121, 2, 0.1);
+}
+.light-ray {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(
+    circle,
+    rgba(254, 121, 2, 0.15) 0%,
+    rgba(254, 121, 2, 0) 70%
+  );
+  filter: blur(60px);
+  z-index: -1;
+  pointer-events: none;
+  animation: light-pulse 10s infinite alternate;
+}
+@keyframes light-pulse {
+  from {
+    transform: translate(-10%, -10%) scale(1);
+    opacity: 0.5;
+  }
+  to {
+    transform: translate(10%, 10%) scale(1.2);
+    opacity: 0.8;
+  }
+}

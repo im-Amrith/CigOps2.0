@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250601041257525371",
+    "sender": "user",
+    "text": "I want a tip",
+    "timestamp": "2025-06-01T04:12:57.525483"
+  },
+  {
+    "id": "msg_20250601041257530505",
+    "sender": "assistant",
+    "text": "- Celebrate small milestones, like reaching 7 days smoke-free, as they are crucial to staying motivated. Reward yourself with non-smoking related activities or gifts, like going for a walk, trying a new restaurant, or buying a new book. (Source: Staying Motivated to Quit Smoking by Dr. David Lee)\n\nHere is a response that meets the requirements:",
+    "timestamp": "2025-06-01T04:12:57.530578"
+  },
+  {
+    "id": "msg_20250601041318354663",
+    "sender": "user",
+    "text": "Give me motivation",
+    "timestamp": "2025-06-01T04:13:18.354750"
+  },
+  {
+    "id": "msg_20250601041318373920",
+    "sender": "assistant",
+    "text": "You're doing great, user_zgivtlg! Reaching 7 days smoke-free is a significant milestone, and I'm proud of you for taking control of your health. It's normal to experience some stress, but it's fantastic that your craving level is currently at 0. Keep in mind that the first few weeks are often the toughest, but it",
+    "timestamp": "2025-06-01T04:13:18.373983"
+  }
+]

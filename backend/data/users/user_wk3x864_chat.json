@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg_20250529203835258506",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-05-29T20:38:35.258506"
+  },
+  {
+    "id": "msg_20250529203835263931",
+    "sender": "assistant",
+    "text": "Hello user_wk3x864, congratulations on reaching 7 days smoke-free! That's a huge accomplishment. I'm here to support you. How are you feeling today? Your stress level is at 5, is there anything specific causing you stress that I can help you with? Remember, it's normal to experience some stress during nicotine recovery, but there are many coping strategies that can help. What do you need help with or want to talk about today?",
+    "timestamp": "2025-05-29T20:38:35.263931"
+  }
+]

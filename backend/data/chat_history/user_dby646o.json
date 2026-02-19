@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_dby646o",
+    "message": "hell",
+    "timestamp": "2025-05-28T14:02:47.329350",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_dby646o",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T14:04:12.581269",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

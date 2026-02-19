@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250530195652539870",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-05-30T19:56:52.539925"
+  },
+  {
+    "id": "msg_20250530195652544293",
+    "sender": "assistant",
+    "text": "Hello! Congratulations on reaching 7 days smoke-free - that's a huge accomplishment! I'm here to support you on your journey. How are you feeling today? Your stress level is at a 5, which is understandable, but remember that nicotine cravings often trigger stress. Since your craving level is currently at 0, let's focus on managing stress. Have you",
+    "timestamp": "2025-05-30T19:56:52.544352"
+  },
+  {
+    "id": "msg_20250530200101914831",
+    "sender": "user",
+    "text": "do you know my name",
+    "timestamp": "2025-05-30T20:01:01.914884"
+  },
+  {
+    "id": "msg_20250530200101919932",
+    "sender": "assistant",
+    "text": "- Stress and nicotine cravings are closely linked. Stress can trigger cravings, and nicotine can temporarily reduce stress. However, nicotine also increases stress levels in the long run. Engage in stress-reducing activities like meditation, yoga, or deep breathing exercises to manage stress and reduce cravings. (Source: Stress and Nicotine by Dr. Michael Lee)\n\nI don't have your",
+    "timestamp": "2025-05-30T20:01:01.919993"
+  }
+]

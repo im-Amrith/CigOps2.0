@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "user_2rgi1hz",
+    "message": "hi",
+    "timestamp": "2025-05-28T18:59:56.848460",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_2rgi1hz",
+    "message": "i'm having a hard time with the cravings",
+    "timestamp": "2025-05-28T18:59:59.286059",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_2rgi1hz",
+    "message": "why am i getting cravings",
+    "timestamp": "2025-05-28T19:00:17.390733",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_2rgi1hz",
+    "message": "i am getting cravings",
+    "timestamp": "2025-05-28T19:00:19.184545",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

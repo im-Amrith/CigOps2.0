@@ -1,0 +1,222 @@
+[
+  {
+    "user_id": "user_drgw2cl",
+    "message": "hi",
+    "timestamp": "2025-05-28T18:35:04.254715",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "Hi, how are you doing?",
+    "timestamp": "2025-05-28T18:35:07.602789",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "i am getting urges help me please",
+    "timestamp": "2025-05-28T18:35:18.607314",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm here for you. Let me know if there's anything I can do to help.",
+    "timestamp": "2025-05-28T18:35:20.659393",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "my hands are shaking,what might be the reason",
+    "timestamp": "2025-05-28T18:35:34.695291",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that. Is it just your hands?",
+    "timestamp": "2025-05-28T18:35:36.739768",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "yes",
+    "timestamp": "2025-05-28T18:35:41.552831",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that you're having a craving. Is it strong?",
+    "timestamp": "2025-05-28T18:35:43.598501",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "it is really strong",
+    "timestamp": "2025-05-28T18:35:51.648328",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that. What are you doing to distract yourself?",
+    "timestamp": "2025-05-28T18:35:53.487672",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "nothing,what should i do",
+    "timestamp": "2025-05-28T18:36:04.239228",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that you're having a hard time. What are you doing to help you cope?",
+    "timestamp": "2025-05-28T18:36:06.395733",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "nothing",
+    "timestamp": "2025-05-28T18:36:13.851795",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that. What are you doing to distract yourself?",
+    "timestamp": "2025-05-28T18:36:16.578558",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "Give me motivation",
+    "timestamp": "2025-05-28T18:37:01.248241",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm here for you. Let me know if there's anything I can do to help.",
+    "timestamp": "2025-05-28T18:37:03.747180",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "hi",
+    "timestamp": "2025-05-28T18:37:46.205073",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "Hi, how are you doing?",
+    "timestamp": "2025-05-28T18:37:47.638190",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I slipped up",
+    "timestamp": "2025-05-28T18:38:04.334268",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that you slipped up. Is it a big deal?",
+    "timestamp": "2025-05-28T18:38:06.812056",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "can u tell me about apples",
+    "timestamp": "2025-05-28T18:39:36.579079",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_drgw2cl",
+    "message": "I'm sorry to hear that you're craving apples. Is there anything I can do to help?",
+    "timestamp": "2025-05-28T18:39:38.855564",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

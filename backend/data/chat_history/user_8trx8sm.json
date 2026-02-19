@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_8trx8sm",
+    "message": "hello",
+    "timestamp": "2025-05-28T14:04:19.834765",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_8trx8sm",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T14:05:02.535648",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

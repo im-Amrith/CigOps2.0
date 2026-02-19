@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nicotine-recovery"
+version = "0.1.0"
+description = "Nicotine Recovery Application"
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "pydantic",
+    "httpx",
+    "python-multipart",
+    "openai",
+    "elevenlabs",
+    "langchain",
+    "langchain-openai",
+    "langchain-community",
+    "langchain-core",
+    "langchain-text-splitters",
+    "langchain-chroma",
+    "chromadb",
+    "tiktoken",
+    "beautifulsoup4",
+    "requests",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]",
+    "sqlalchemy",
+    "alembic",
+    "psycopg2-binary",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn"
+]
+
+[tool.setuptools]
+packages = ["backend"] 

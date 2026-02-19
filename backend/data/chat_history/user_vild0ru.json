@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "user_vild0ru",
+    "message": "hello assistant",
+    "timestamp": "2025-05-29T05:54:05.116543",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_vild0ru",
+    "message": "Hey Rako! I'm here to support you. You're doing great so far, and I want to remind you that every day you stay smoke-free is a victory. You're saving money and improving your health with each passing day. What's been on your mind lately, and how can I help you stay on track?",
+    "timestamp": "2025-05-29T05:54:07.204527",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_vild0ru",
+    "message": "i am feeling stressed",
+    "timestamp": "2025-05-29T05:54:15.079568",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_vild0ru",
+    "message": "<|header_start|>assistant<|header_end|>\n\nRako, I'm so sorry to hear you're feeling stressed. It's completely normal to feel that way, but I want you to know that you're strong and capable of getting through this. Take a deep breath with me and let's focus on the present moment - you're doing great so far, and you've only just started your smoke-free journey! Let's visualize your life as a non-smoker, with more energy and better health - what does that look like to you? What's one thing you can do right now to help calm your stress, like taking a short walk or practicing some stretching?",
+    "timestamp": "2025-05-29T05:54:17.820418",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

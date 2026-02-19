@@ -1,0 +1,102 @@
+[
+  {
+    "user_id": "user_blua1hv",
+    "message": "hi",
+    "timestamp": "2025-05-28T17:37:22.863778",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "Hi, how are you doing?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T17:37:25.670642",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "i am feeling stresses",
+    "timestamp": "2025-05-28T17:37:34.134493",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "I'm sorry you're feeling stressed. Is there anything you can do to help yourself feel better?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T17:37:35.888113",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "what should i do,my hands are shaking",
+    "timestamp": "2025-05-28T17:38:08.240441",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "I'm sorry to hear that you're having a hard time. Is there anything else I can help you with?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T17:38:10.207307",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "I have a craving",
+    "timestamp": "2025-05-28T17:38:16.911010",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "I'm here for you. Let me know if there's anything I can do to help.\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T17:38:18.715839",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "I want a tip",
+    "timestamp": "2025-05-28T17:39:13.386613",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_blua1hv",
+    "message": "I'm here for you. Let me know if there's anything I can do to help.\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T17:39:14.936225",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

@@ -1,0 +1,23 @@
+from pydantic import BaseModel
+from typing import Optional, List, Dict
+
+class UserContext(BaseModel):
+    user_id: str
+    mood: Optional[str]
+    cravings: Optional[int]
+    location: Optional[str]
+    time: Optional[str]
+    biometric: Optional[Dict]
+
+class QueryRequest(BaseModel):
+    user_id: str
+    context: UserContext
+    message: str
+
+class CalmRequest(BaseModel):
+    user_id: str
+    context: UserContext
+
+class PlanRequest(BaseModel):
+    user_id: str
+    preferences: Optional[Dict]

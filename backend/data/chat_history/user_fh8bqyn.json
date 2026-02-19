@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "user_fh8bqyn",
+    "message": "Meditate",
+    "timestamp": "2025-05-28T12:58:43.622545",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_fh8bqyn",
+    "message": "I'm here for you. How are you feeling today? Remember, I'm here to support you. Reward yourself for every smoke-free day. You deserve it!",
+    "timestamp": "2025-05-28T12:58:43.624617",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_fh8bqyn",
+    "message": "Distract yourself",
+    "timestamp": "2025-05-28T12:58:49.288202",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_fh8bqyn",
+    "message": "You're not alone in this journey. How are you feeling today? Remember, I'm here to support you. Try the 4 D's: Delay, Deep breathing, Drink water, Do something else.",
+    "timestamp": "2025-05-28T12:58:49.302221",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_fh8bqyn",
+    "message": "i need help",
+    "timestamp": "2025-05-28T12:58:55.967933",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_fh8bqyn",
+    "message": "You're not alone in this journey. You're making progress every day. Remember your reasons for quitting. You're saving money and improving your health every day you stay smoke-free!",
+    "timestamp": "2025-05-28T12:58:55.983898",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 10
+    }
+  }
+]

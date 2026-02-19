@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250530124813070001",
+    "sender": "user",
+    "text": "hola",
+    "timestamp": "2025-05-30T12:48:13.070001"
+  },
+  {
+    "id": "msg_20250530124813074010",
+    "sender": "assistant",
+    "text": "Hola! Congratulations on reaching 7 days smoke-free! That's a huge accomplishment. I'm here to support you. How are you feeling today? Your stress level is at 5, is there anything specific causing you stress that I can help",
+    "timestamp": "2025-05-30T12:48:13.074010"
+  },
+  {
+    "id": "msg_20250530124858089581",
+    "sender": "user",
+    "text": "can not hear ur voice",
+    "timestamp": "2025-05-30T12:48:58.089581"
+  },
+  {
+    "id": "msg_20250530124858094487",
+    "sender": "assistant",
+    "text": "- You're doing great, and it's normal to have fluctuations in stress levels. Keep in mind that your body is still adjusting to the absence of nicotine, and it's okay to feel a bit off sometimes. Stay hydrated, get enough sleep,",
+    "timestamp": "2025-05-30T12:48:58.095585"
+  }
+]

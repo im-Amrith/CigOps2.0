@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250602062725881428",
+    "sender": "user",
+    "text": "hey",
+    "timestamp": "2025-06-02T06:27:25.881428"
+  },
+  {
+    "id": "msg_20250602062725886189",
+    "sender": "assistant",
+    "text": "You're doing great, user_3x8ur6o! 7 days smoke-free is a huge accomplishment. I'm here to support you. How are you feeling today? Your stress level is at a 5, which is understandable. Would you like some tips on managing stress without reaching for cigarettes? I'm here to help you stay on track.",
+    "timestamp": "2025-06-02T06:27:25.886189"
+  },
+  {
+    "id": "msg_20250602062753205030",
+    "sender": "user",
+    "text": "my name is ketchup",
+    "timestamp": "2025-06-02T06:27:53.207117"
+  },
+  {
+    "id": "msg_20250602062753287620",
+    "sender": "assistant",
+    "text": "- Stress can trigger cravings. Engage in stress-reducing activities like meditation, deep breathing, or yoga to help manage stress levels. Regular exercise can also reduce stress and improve mood. Identify your personal stress triggers and develop a plan to cope with them in healthy ways. (Source: Managing Stress by Dr. Lisa Nguyen)\n\nHello Ketchup, congratulations on reaching 7",
+    "timestamp": "2025-06-02T06:27:53.287620"
+  }
+]

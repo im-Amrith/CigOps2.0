@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg_20250602102435720359",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-06-02T10:24:35.720359"
+  },
+  {
+    "id": "msg_20250602102435727949",
+    "sender": "assistant",
+    "text": "Hello, how can I support you today?",
+    "timestamp": "2025-06-02T10:24:35.727949"
+  }
+]

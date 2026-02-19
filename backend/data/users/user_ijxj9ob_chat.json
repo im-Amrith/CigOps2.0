@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg_20250602080736000577",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-06-02T08:07:36.000577"
+  },
+  {
+    "id": "msg_20250602080736010569",
+    "sender": "assistant",
+    "text": "You've made it 7 days without smoking, and that's something to be incredibly proud of! I'm here to support you every step of the way. Since your craving level is currently at 0, let's focus on managing your stress level, which you've reported as a 5. Stress can be a significant trigger for nicotine cravings, so it's essential",
+    "timestamp": "2025-06-02T08:07:36.010569"
+  }
+]

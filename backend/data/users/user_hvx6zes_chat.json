@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250601200812286805",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-06-01T20:08:12.287035"
+  },
+  {
+    "id": "msg_20250601200812297779",
+    "sender": "assistant",
+    "text": "I'm experiencing some technical difficulties. Please try again in a moment.",
+    "timestamp": "2025-06-01T20:08:12.297889"
+  },
+  {
+    "id": "msg_20250601201001939257",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-06-01T20:10:01.939484"
+  },
+  {
+    "id": "msg_20250601201001989052",
+    "sender": "assistant",
+    "text": "I'm experiencing some technical difficulties. Please try again in a moment.",
+    "timestamp": "2025-06-01T20:10:01.989222"
+  }
+]

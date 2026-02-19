@@ -1,0 +1,20 @@
+{
+  "quitDate": "2025-06-01",
+  "triggers": [
+    "stress at work",
+    "Morning coffee"
+  ],
+  "copingStrategies": [
+    "Deep breathing exercises",
+    "Going for a walk",
+    "Using nicotine gum when needed"
+  ],
+  "supportPeople": [
+    "John (Friend)",
+    "Quit Smoking Support Group"
+  ],
+  "rewards": [
+    "New pair of shoes after 1 week",
+    "Weekend getaway after 3 months"
+  ]
+}

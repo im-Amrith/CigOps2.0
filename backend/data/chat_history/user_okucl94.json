@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_okucl94",
+    "message": "hi",
+    "timestamp": "2025-05-28T16:22:52.985364",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_okucl94",
+    "message": "Hi, how are you doing?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T16:22:58.090529",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

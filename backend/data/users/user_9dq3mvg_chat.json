@@ -1,0 +1,38 @@
+[
+  {
+    "id": "msg_20250601041928538881",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-06-01T04:19:28.538934"
+  },
+  {
+    "id": "msg_20250601041928545218",
+    "sender": "assistant",
+    "text": "You're doing great, user_9dq3mvg! 7 days smoke-free is a huge accomplishment. I'm here to support you. How are you feeling today? Is there anything specific that's causing you stress, or would you like some tips to manage your stress levels and stay on track with your recovery? \n\n(Note: The response should be similar to",
+    "timestamp": "2025-06-01T04:19:28.545313"
+  },
+  {
+    "id": "msg_20250601041947726754",
+    "sender": "user",
+    "text": "i am feeling urges",
+    "timestamp": "2025-06-01T04:19:47.726814"
+  },
+  {
+    "id": "msg_20250601041947774571",
+    "sender": "assistant",
+    "text": "I totally understand that you're feeling urges, and it's completely normal, especially after 7 days of being smoke-free. You've made great progress so far, and I'm proud of you! \n\nResearch shows that nicotine cravings can be triggered by stress, and with your current stress level at 5, it's possible that's contributing to your urges. Here are",
+    "timestamp": "2025-06-01T04:19:47.774664"
+  },
+  {
+    "id": "msg_20250601042004211832",
+    "sender": "user",
+    "text": "thank you",
+    "timestamp": "2025-06-01T04:20:04.211960"
+  },
+  {
+    "id": "msg_20250601042004248270",
+    "sender": "assistant",
+    "text": "- Stress can trigger cravings. Engage in stress-reducing activities like meditation, yoga, or deep breathing exercises. Regular physical activity can also help manage stress levels. (Source: Stress Management for Smoking Cessation by Dr. David Lee)\n\nYou're welcome, user_9dq3mvg! I'm glad you're feeling grateful. You've made it",
+    "timestamp": "2025-06-01T04:20:04.248401"
+  }
+]

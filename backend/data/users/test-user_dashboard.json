@@ -1,0 +1,20 @@
+{
+  "progress": {
+    "daysSmokeFree": 0,
+    "percentage": 0,
+    "message": "Start your journey to a smoke-free life today!"
+  },
+  "cravings": {
+    "resisted": 0,
+    "total": 0
+  },
+  "triggers": [
+    "Stress",
+    "After meals",
+    "Social situations",
+    "Driving"
+  ],
+  "badges": [],
+  "moneySaved": 0.0,
+  "healthImprovements": []
+}

@@ -1,0 +1,39 @@
+.dynamic-sphere {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #00aaff 0%, #00aaff00 70%); /* Modern blue gradient */
+  box-shadow: 0 0 30px rgba(0, 170, 255, 0.8); /* Enhanced shadow */
+  transition: all 0.3s ease; /* Smooth transitions */
+  transform-origin: center; /* Ensure scaling is from the center */
+}
+
+.dynamic-sphere.listening {
+  background: radial-gradient(circle at center, #ff4136 0%, #ff413600 70%); /* Red gradient when listening */
+  box-shadow: 0 0 30px rgba(255, 65, 54, 0.8); /* Red shadow */
+  animation: pulse-listen 1.5s infinite ease-out; /* Pulsing animation */
+}
+
+.dynamic-sphere.processing {
+  background: radial-gradient(circle at center, #ffc107 0%, #ffc10700 70%); /* Orange gradient when processing */
+  box-shadow: 0 0 30px rgba(255, 193, 7, 0.8); /* Orange shadow */
+  animation: spin 2s linear infinite; /* Spinning animation */
+}
+
+.dynamic-sphere.speaking {
+  background: radial-gradient(circle at center, #28a745 0%, #28a74500 70%); /* Green gradient when speaking */
+  box-shadow: 0 0 30px rgba(40, 167, 69, 0.8); /* Green shadow */
+  /* Volume-based scaling will be handled by inline styles */
+}
+
+/* Keyframe animations */
+@keyframes pulse-listen {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 

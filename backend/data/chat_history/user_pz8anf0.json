@@ -1,0 +1,122 @@
+[
+  {
+    "user_id": "user_pz8anf0",
+    "message": "h1",
+    "timestamp": "2025-05-28T15:27:28.117357",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "I'm sorry you're having a hard time. I'm here to help.\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T15:28:24.337136",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "what should i do when i am having urges",
+    "timestamp": "2025-05-28T15:28:45.613880",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T15:29:28.670510",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "retyru",
+    "timestamp": "2025-05-28T15:29:49.933262",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "I'm sorry you're having a hard time. Is there anything I can do to help?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T15:29:56.972835",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "yes help me",
+    "timestamp": "2025-05-28T15:30:07.479926",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "I'm here to help. What's going on?\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T15:30:14.776563",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "My hands are shaking,what to do",
+    "timestamp": "2025-05-28T15:30:30.924639",
+    "sender": "user",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T15:31:13.872259",
+    "sender": "bot",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "I want a tip",
+    "timestamp": "2025-05-28T15:31:18.933158",
+    "sender": "user",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 10
+    }
+  },
+  {
+    "user_id": "user_pz8anf0",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T15:32:01.835604",
+    "sender": "bot",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 10
+    }
+  }
+]

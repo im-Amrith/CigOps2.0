@@ -1,0 +1,28 @@
+{
+  "quitDate": "2025-05-28",
+  "triggers": [
+    "Stress at work",
+    "After meals",
+    "Social situations",
+    "Driving",
+    "Morning coffee"
+  ],
+  "copingStrategies": [
+    "Deep breathing exercises",
+    "Going for a walk",
+    "Drinking water",
+    "Calling a support person",
+    "Using nicotine gum when needed"
+  ],
+  "supportPeople": [
+    "John (Friend)",
+    "Sarah (Sister)",
+    "Dr. Smith (Doctor)",
+    "Quit Smoking Support Group"
+  ],
+  "rewards": [
+    "New pair of shoes after 1 week",
+    "Massage after 1 month",
+    "Weekend getaway after 3 months"
+  ]
+}

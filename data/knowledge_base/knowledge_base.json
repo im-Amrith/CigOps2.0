@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nicotine-withdrawal",
+    "title": "Nicotine Withdrawal Symptoms",
+    "content": "Nicotine withdrawal symptoms typically begin within 2-3 hours after your last cigarette and peak within 2-3 days. Common symptoms include: irritability, anxiety, difficulty concentrating, increased appetite, restlessness, and strong cravings. These symptoms usually subside within 2-4 weeks, though some people may experience them for longer.",
+    "keywords": ["withdrawal", "symptoms", "craving", "irritable", "anxiety", "concentration", "appetite", "restless"],
+    "source": "CDC",
+    "category": "health"
+  },
+  {
+    "id": "craving-management",
+    "title": "Managing Cravings",
+    "content": "Cravings typically last 3-5 minutes. When a craving hits, try the 4 D's: Delay (wait it out), Deep breathing, Drink water, and Distract yourself. Other effective strategies include physical activity, calling a friend, using nicotine replacement therapy, and practicing mindfulness.",
+    "keywords": ["craving", "urge", "temptation", "delay", "breathing", "water", "distract", "activity", "friend", "NRT", "mindfulness"],
+    "source": "American Cancer Society",
+    "category": "coping"
+  },
+  {
+    "id": "benefits-timeline",
+    "title": "Benefits Timeline After Quitting",
+    "content": "Within 20 minutes: blood pressure and heart rate drop. Within 12 hours: carbon monoxide level normalizes. Within 2 weeks to 3 months: circulation improves and lung function increases. Within 1-9 months: coughing and shortness of breath decrease. Within 1 year: risk of heart disease is half that of a smoker. Within 5 years: stroke risk is reduced to that of a non-smoker. Within 10 years: lung cancer death rate is half that of a smoker. Within 15 years: risk of heart disease is the same as a non-smoker.",
+    "keywords": ["benefits", "timeline", "health", "improvement", "blood pressure", "heart rate", "circulation", "lung function", "coughing", "shortness of breath", "heart disease", "stroke", "lung cancer"],
+    "source": "American Heart Association",
+    "category": "health"
+  },
+  {
+    "id": "relapse-prevention",
+    "title": "Preventing Relapse",
+    "content": "Relapse prevention strategies include: identifying and avoiding triggers, developing a support network, practicing stress management techniques, setting up rewards for milestones, using nicotine replacement therapy or medications, and having a plan for handling cravings. Remember that relapse is not failure - it's a learning opportunity. Most successful quitters have multiple attempts before quitting for good.",
+    "keywords": ["relapse", "prevention", "trigger", "support", "stress", "reward", "milestone", "NRT", "medication", "plan", "failure", "learning"],
+    "source": "National Cancer Institute",
+    "category": "coping"
+  },
+  {
+    "id": "nicotine-replacement",
+    "title": "Nicotine Replacement Therapy (NRT)",
+    "content": "Nicotine replacement therapy (NRT) can double your chances of quitting successfully. Options include: nicotine patches, gum, lozenges, inhalers, and nasal sprays. NRT works by providing a small amount of nicotine to reduce withdrawal symptoms while you break the psychological habit of smoking. It's generally safe for most adults, but consult your healthcare provider before use, especially if you have heart disease or are pregnant.",
+    "keywords": ["NRT", "nicotine replacement", "patch", "gum", "lozenge", "inhaler", "nasal spray", "withdrawal", "habit", "safe", "healthcare", "heart disease", "pregnant"],
+    "source": "FDA",
+    "category": "treatment"
+  },
+  {
+    "id": "medications",
+    "title": "Medications for Smoking Cessation",
+    "content": "Prescription medications can help with quitting smoking. Bupropion (Zyban) is an antidepressant that reduces nicotine withdrawal symptoms and the urge to smoke. Varenicline (Chantix) blocks nicotine receptors in the brain, reducing the pleasure from smoking and easing withdrawal symptoms. Both medications should be started 1-2 weeks before your quit date. Side effects may include nausea, insomnia, and mood changes. Consult your healthcare provider to determine if these medications are right for you.",
+    "keywords": ["medication", "prescription", "bupropion", "zyban", "varenicline", "chantix", "antidepressant", "withdrawal", "urge", "pleasure", "side effect", "nausea", "insomnia", "mood", "healthcare"],
+    "source": "FDA",
+    "category": "treatment"
+  },
+  {
+    "id": "stress-management",
+    "title": "Stress Management for Smokers",
+    "content": "Many people smoke to manage stress, but smoking actually increases stress in the long term. Effective stress management techniques include: deep breathing exercises, progressive muscle relaxation, meditation, yoga, regular physical activity, adequate sleep, time management, and seeking social support. Developing these skills before quitting can help you handle stress without turning to cigarettes.",
+    "keywords": ["stress", "management", "breathing", "relaxation", "meditation", "yoga", "exercise", "sleep", "time management", "support", "cigarette"],
+    "source": "American Psychological Association",
+    "category": "coping"
+  },
+  {
+    "id": "weight-management",
+    "title": "Managing Weight After Quitting",
+    "content": "Many people gain weight after quitting smoking, typically 5-10 pounds. This is because nicotine increases metabolism and suppresses appetite. To manage weight gain: stay physically active, eat a balanced diet with plenty of fruits and vegetables, drink water instead of sugary beverages, get adequate sleep, and use sugar-free gum or healthy snacks to manage oral cravings. Focus on quitting first, then address weight management if needed.",
+    "keywords": ["weight", "gain", "metabolism", "appetite", "exercise", "diet", "fruit", "vegetable", "water", "sleep", "gum", "snack", "oral", "craving"],
+    "source": "CDC",
+    "category": "health"
+  },
+  {
+    "id": "social-support",
+    "title": "Building a Support Network",
+    "content": "Having a strong support network can significantly increase your chances of quitting successfully. Tell family, friends, and coworkers about your quit plan and ask for their support. Join a quit-smoking program or support group. Use quitlines (1-800-QUIT-NOW) for free counseling. Connect with others who are quitting through online forums or social media. Consider asking a friend or family member to quit with you for mutual support.",
+    "keywords": ["support", "network", "family", "friend", "coworker", "program", "group", "quitline", "counseling", "forum", "social media", "mutual"],
+    "source": "American Lung Association",
+    "category": "coping"
+  },
+  {
+    "id": "quit-plan",
+    "title": "Creating a Quit Plan",
+    "content": "A comprehensive quit plan increases your chances of success. Your plan should include: setting a quit date, identifying your reasons for quitting, recognizing your triggers, choosing a quit method (cold turkey, NRT, medication), preparing for withdrawal symptoms, planning how to handle cravings, setting up a support system, and establishing rewards for milestones. Write your plan down and review it regularly.",
+    "keywords": ["plan", "quit date", "reason", "trigger", "method", "cold turkey", "NRT", "medication", "withdrawal", "craving", "support", "reward", "milestone"],
+    "source": "American Cancer Society",
+    "category": "planning"
+  },
+  {
+    "id": "financial-benefits",
+    "title": "Financial Benefits of Quitting",
+    "content": "Quitting smoking can save you significant money. Calculate your savings by multiplying the cost of a pack of cigarettes by the number of packs you smoke per day, then by 365 days. For example, if you smoke a pack a day at $8 per pack, you'll save $2,920 in a year. Consider setting up a savings account specifically for your cigarette money and treat yourself to something special with the savings.",
+    "keywords": ["financial", "money", "save", "cost", "pack", "cigarette", "savings account", "treat"],
+    "source": "American Lung Association",
+    "category": "motivation"
+  },
+  {
+    "id": "secondhand-smoke",
+    "title": "Secondhand Smoke Risks",
+    "content": "Secondhand smoke contains more than 7,000 chemicals, including hundreds that are toxic and about 70 that can cause cancer. It causes numerous health problems in children and adults, including respiratory infections, asthma attacks, ear infections, sudden infant death syndrome (SIDS), heart disease, stroke, and lung cancer. There is no safe level of exposure to secondhand smoke. Quitting smoking protects not only your health but also the health of those around you.",
+    "keywords": ["secondhand", "smoke", "chemical", "toxic", "cancer", "child", "adult", "respiratory", "asthma", "ear", "SIDS", "heart disease", "stroke", "lung cancer", "exposure"],
+    "source": "CDC",
+    "category": "health"
+  },
+  {
+    "id": "e-cigarettes",
+    "title": "E-Cigarettes and Quitting",
+    "content": "E-cigarettes are not currently approved by the FDA as a quit-smoking aid. While they may be less harmful than traditional cigarettes, they still contain nicotine and other potentially harmful chemicals. Some studies suggest they may help some people quit smoking, but more research is needed. If you're considering using e-cigarettes to quit, talk to your healthcare provider about other FDA-approved options first.",
+    "keywords": ["e-cigarette", "vape", "FDA", "quit-smoking", "aid", "harmful", "nicotine", "chemical", "study", "research", "healthcare"],
+    "source": "FDA",
+    "category": "treatment"
+  },
+  {
+    "id": "mental-health",
+    "title": "Smoking and Mental Health",
+    "content": "People with mental health conditions smoke at higher rates than the general population. While smoking may temporarily relieve symptoms of stress, anxiety, and depression, it actually worsens mental health in the long term. Quitting smoking can improve mental health and reduce symptoms of anxiety and depression. If you have a mental health condition, work with your healthcare provider to develop a quit plan that addresses both your smoking and mental health needs.",
+    "keywords": ["mental health", "condition", "stress", "anxiety", "depression", "symptom", "healthcare", "plan"],
+    "source": "National Institute of Mental Health",
+    "category": "health"
+  },
+  {
+    "id": "relapse-recovery",
+    "title": "Recovering from a Relapse",
+    "content": "If you've relapsed, don't give up. Most successful quitters have multiple attempts before quitting for good. View the relapse as a learning opportunity rather than a failure. Identify what triggered the relapse and develop strategies to handle that trigger in the future. Set a new quit date as soon as possible. Remember that even a brief period of not smoking is beneficial to your health. Each quit attempt brings you closer to becoming a permanent non-smoker.",
+    "keywords": ["relapse", "recovery", "attempt", "learning", "failure", "trigger", "strategy", "quit date", "health", "non-smoker"],
+    "source": "American Cancer Society",
+    "category": "coping"
+  }
+] 

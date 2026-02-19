@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "user_sz9pbam",
+    "message": "hello",
+    "timestamp": "2025-05-28T18:46:08.360706",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_sz9pbam",
+    "message": "I'm glad to hear from you. I'm a recovering smoker too. I'm glad you're here.",
+    "timestamp": "2025-05-28T18:46:11.214054",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_sz9pbam",
+    "message": "i am feeling urges",
+    "timestamp": "2025-05-28T18:46:23.029821",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_sz9pbam",
+    "message": "I'm sorry you're having cravings. I know it's hard to quit. I'm here for you.",
+    "timestamp": "2025-05-28T18:46:25.240229",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_sz9pbam",
+    "message": "I feel stressed",
+    "timestamp": "2025-05-28T18:46:35.976327",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_sz9pbam",
+    "message": "I'm sorry you're feeling stressed. Is there anything you can do to help?",
+    "timestamp": "2025-05-28T18:46:38.001659",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

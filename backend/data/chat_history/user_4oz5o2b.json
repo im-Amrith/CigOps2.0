@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_4oz5o2b",
+    "message": "help",
+    "timestamp": "2025-05-28T14:24:27.334103",
+    "sender": "user",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_4oz5o2b",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T14:25:10.033129",
+    "sender": "bot",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 0
+    }
+  }
+]

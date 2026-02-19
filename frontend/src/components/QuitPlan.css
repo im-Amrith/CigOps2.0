@@ -1,0 +1,1178 @@
+.quit-plan-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: calc(100vh - 200px);
+}
+
+.quit-plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.quit-plan-header h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.edit-button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.edit-button.active {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+/* Plan Content Styles */
+.quit-plan-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.plan-section {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(30, 30, 46, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.plan-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(236, 72, 153, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.plan-section:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+}
+
+.plan-section:hover::before {
+  opacity: 1;
+}
+
+.plan-section h2 {
+  color: #f8f9fa;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.75rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.plan-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  transition: width 0.3s ease;
+}
+
+.plan-section:hover h2::after {
+  width: 100px;
+}
+
+.plan-section h2::before {
+  content: '→';
+  margin-right: 10px;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  color: #8b5cf6;
+}
+
+.plan-section:hover h2::before {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.quit-date {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #10b981;
+  margin: 0;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(16, 185, 129, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.plan-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan-list li {
+  position: relative;
+  padding: 0.75rem 1rem 0.75rem 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  background: rgba(20, 20, 30, 0.5);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  transform-origin: left center;
+}
+
+.plan-list li:hover {
+  transform: translateX(5px) scale(1.02);
+  background: rgba(20, 20, 30, 0.7);
+  border-color: rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.plan-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0.75rem;
+  color: #8b5cf6;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.plan-list li:hover:before {
+  color: #ec4899;
+  transform: scale(1.2);
+}
+
+/* Add pulse animation to list items */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(139, 92, 246, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(139, 92, 246, 0);
+  }
+}
+
+.plan-list li:nth-child(odd):hover {
+  animation: pulse 1.5s infinite;
+}
+
+/* Add section-specific colors */
+.plan-section:nth-child(1) h2::after {
+  background: linear-gradient(90deg, #10b981, #34d399);
+}
+
+.plan-section:nth-child(2) h2::after {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+
+.plan-section:nth-child(3) h2::after {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+.plan-section:nth-child(4) h2::after {
+  background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+}
+
+.plan-section:nth-child(5) h2::after {
+  background: linear-gradient(90deg, #ec4899, #f472b6);
+}
+
+/* Add section-specific hover effects */
+.plan-section:nth-child(1):hover {
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.plan-section:nth-child(2):hover {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.plan-section:nth-child(3):hover {
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.plan-section:nth-child(4):hover {
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.plan-section:nth-child(5):hover {
+  border-color: rgba(236, 72, 153, 0.3);
+}
+
+/* Add section-specific bullet colors */
+.plan-section:nth-child(1) .plan-list li:before {
+  color: #10b981;
+}
+
+.plan-section:nth-child(2) .plan-list li:before {
+  color: #f59e0b;
+}
+
+.plan-section:nth-child(3) .plan-list li:before {
+  color: #3b82f6;
+}
+
+.plan-section:nth-child(4) .plan-list li:before {
+  color: #8b5cf6;
+}
+
+.plan-section:nth-child(5) .plan-list li:before {
+  color: #ec4899;
+}
+
+/* Add section-specific hover bullet colors */
+.plan-section:nth-child(1) .plan-list li:hover:before {
+  color: #34d399;
+}
+
+.plan-section:nth-child(2) .plan-list li:hover:before {
+  color: #fbbf24;
+}
+
+.plan-section:nth-child(3) .plan-list li:hover:before {
+  color: #60a5fa;
+}
+
+.plan-section:nth-child(4) .plan-list li:hover:before {
+  color: #a78bfa;
+}
+
+.plan-section:nth-child(5) .plan-list li:hover:before {
+  color: #f472b6;
+}
+
+/* Add section-specific pulse animations */
+.plan-section:nth-child(1) .plan-list li:nth-child(odd):hover {
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+}
+
+.plan-section:nth-child(2) .plan-list li:nth-child(odd):hover {
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4);
+}
+
+.plan-section:nth-child(3) .plan-list li:nth-child(odd):hover {
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+}
+
+.plan-section:nth-child(4) .plan-list li:nth-child(odd):hover {
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4);
+}
+
+.plan-section:nth-child(5) .plan-list li:nth-child(odd):hover {
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.4);
+}
+
+/* Form Styles */
+.quit-plan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #f8f9fa;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background: rgba(20, 20, 30, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+  outline: none;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.save-button {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.save-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(139, 92, 246, 0.4);
+}
+
+.save-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+}
+
+/* Loading and Error States */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top-color: var(--primary);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+}
+
+.error-message button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.error-message button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .quit-plan-container {
+    padding: 1rem;
+  }
+  
+  .quit-plan-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .quit-plan-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .quit-plan-form {
+    padding: 1.5rem;
+  }
+}
+
+/* Glassmorphism effects */
+.glassmorphic {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover effects */
+.edit-button {
+  transition: all 0.3s ease;
+}
+
+.edit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form input focus effects */
+input:focus, textarea:focus {
+  box-shadow: 0 0 0 2px var(--primary);
+  transition: all 0.3s ease;
+}
+
+/* List item hover effects */
+.plan-section li {
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.plan-section li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+/* Vertical Timeline Styles */
+.timeline-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: rgba(30, 30, 46, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.timeline-container:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.vertical-timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 30px;
+  width: 2px;
+  background: linear-gradient(to bottom, 
+    rgba(139, 92, 246, 0.8), 
+    rgba(236, 72, 153, 0.8), 
+    rgba(250, 204, 21, 0.8), 
+    rgba(16, 185, 129, 0.8)
+  );
+  z-index: 1;
+}
+
+.timeline-milestone {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 60px;
+  transition: all 0.3s ease;
+}
+
+.timeline-milestone:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-milestone.completed .milestone-icon {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+}
+
+.milestone-icon {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(30, 30, 46, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-milestone:hover .milestone-icon {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+}
+
+.milestone-content {
+  position: relative;
+  padding: 20px;
+  background: rgba(30, 30, 46, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.timeline-milestone:hover .milestone-content {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.milestone-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.milestone-label {
+  font-weight: 700;
+  color: #f8f9fa;
+  font-size: 1.2rem;
+}
+
+.milestone-date {
+  color: #ced4da;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.milestone-benefit {
+  color: #8b5cf6;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.milestone-fact {
+  color: #ced4da;
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.milestone-note {
+  width: 100%;
+  background: rgba(20, 20, 30, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  color: #f8f9fa;
+  font-size: 0.9rem;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.milestone-note:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+  outline: none;
+}
+
+.milestone-note:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.milestone-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.milestone-actions button {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.milestone-actions button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(139, 92, 246, 0.4);
+}
+
+.milestone-actions button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);
+}
+
+/* Confetti container */
+.milestone-content .motion-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .vertical-timeline::before {
+    left: 20px;
+  }
+  
+  .timeline-milestone {
+    padding-left: 50px;
+  }
+  
+  .milestone-icon {
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .milestone-content {
+    padding: 15px;
+  }
+  
+  .milestone-label {
+    font-size: 1rem;
+  }
+  
+  .milestone-date {
+    font-size: 0.8rem;
+  }
+}
+
+/* Animation for milestone completion */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+.timeline-milestone.completed .milestone-icon {
+  animation: pulse 2s infinite;
+}
+
+/* Hover effect for milestone cards */
+.timeline-milestone .milestone-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.timeline-milestone:hover .milestone-content::before {
+  opacity: 1;
+}
+
+/* Confetti Animation */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 0.7;
+  animation: confetti-fall 3s ease-in-out forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(calc(100vh + 100px)) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* Section Toggle Icons */
+.section-toggle {
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.plan-section:hover .section-toggle {
+  transform: scale(1.2);
+}
+
+/* Item Icons */
+.item-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.item-icon.completed {
+  color: #10b981;
+  transform: scale(1.2);
+}
+
+/* Completed Items */
+.completed-item {
+  text-decoration: line-through;
+  opacity: 0.7;
+  background: rgba(16, 185, 129, 0.1) !important;
+  border-color: rgba(16, 185, 129, 0.3) !important;
+}
+
+/* Section Icons */
+.section-icon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  opacity: 0.2;
+  transition: all 0.3s ease;
+}
+
+.plan-section:hover .section-icon {
+  opacity: 0.5;
+  transform: scale(1.2) rotate(5deg);
+}
+
+/* Progress Indicator */
+.progress-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(30, 30, 46, 0.7);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.progress-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+/* Achievement Badges */
+.achievement-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: rgba(30, 30, 46, 0.7);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.badge-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.badge.locked {
+  opacity: 0.5;
+  filter: grayscale(1);
+}
+
+/* Stylish Header Styles */
+.quit-plan-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f8f9fa;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation: titleGlow 3s ease-in-out infinite alternate;
+}
+
+.quit-plan-container h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 4px;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+}
+
+.quit-plan-container h1::before {
+  content: '🚭';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes titleGlow {
+  0% {
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(236, 72, 153, 0.5);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Responsive adjustments for the header */
+@media (max-width: 768px) {
+  .quit-plan-container h1 {
+    font-size: 2rem;
+  }
+  
+  .quit-plan-container h1::after {
+    width: 100px;
+  }
+}
+
+/* Interactive Plan Section Enhancements */
+.plan-section {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 1;
+}
+
+.plan-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.plan-section:hover::after {
+  opacity: 1;
+}
+
+/* Add 3D tilt effect on hover */
+.plan-section {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.plan-section:hover {
+  transform: translateY(-8px) scale(1.02) rotateX(2deg) rotateY(2deg);
+}
+
+/* Add interactive cursor */
+.plan-section {
+  cursor: pointer;
+}
+
+/* Add ripple effect on click */
+.plan-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  pointer-events: none;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* Add section-specific hover animations */
+.plan-section:nth-child(1):hover {
+  box-shadow: 0 15px 45px rgba(16, 185, 129, 0.3);
+}
+
+.plan-section:nth-child(2):hover {
+  box-shadow: 0 15px 45px rgba(245, 158, 11, 0.3);
+}
+
+.plan-section:nth-child(3):hover {
+  box-shadow: 0 15px 45px rgba(59, 130, 246, 0.3);
+}
+
+.plan-section:nth-child(4):hover {
+  box-shadow: 0 15px 45px rgba(139, 92, 246, 0.3);
+}
+
+.plan-section:nth-child(5):hover {
+  box-shadow: 0 15px 45px rgba(236, 72, 153, 0.3);
+}
+
+/* Add section-specific background gradients on hover */
+.plan-section:nth-child(1):hover {
+  background: linear-gradient(135deg, rgba(30, 30, 46, 0.9), rgba(16, 185, 129, 0.1));
+}
+
+.plan-section:nth-child(2):hover {
+  background: linear-gradient(135deg, rgba(30, 30, 46, 0.9), rgba(245, 158, 11, 0.1));
+}
+
+.plan-section:nth-child(3):hover {
+  background: linear-gradient(135deg, rgba(30, 30, 46, 0.9), rgba(59, 130, 246, 0.1));
+}
+
+.plan-section:nth-child(4):hover {
+  background: linear-gradient(135deg, rgba(30, 30, 46, 0.9), rgba(139, 92, 246, 0.1));
+}
+
+.plan-section:nth-child(5):hover {
+  background: linear-gradient(135deg, rgba(30, 30, 46, 0.9), rgba(236, 72, 153, 0.1));
+}
+
+/* Add section-specific icon animations */
+.plan-section:nth-child(1) .section-icon {
+  color: #10b981;
+}
+
+.plan-section:nth-child(2) .section-icon {
+  color: #f59e0b;
+}
+
+.plan-section:nth-child(3) .section-icon {
+  color: #3b82f6;
+}
+
+.plan-section:nth-child(4) .section-icon {
+  color: #8b5cf6;
+}
+
+.plan-section:nth-child(5) .section-icon {
+  color: #ec4899;
+}
+
+.plan-section:hover .section-icon {
+  animation: iconPulse 1.5s infinite;
+}
+
+@keyframes iconPulse {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(5deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* Add section-specific toggle icon animations */
+.plan-section:hover .section-toggle {
+  animation: toggleBounce 1s infinite;
+}
+
+@keyframes toggleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Add section-specific list item animations */
+.plan-list li {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.plan-list li:hover {
+  transform: translateX(10px) scale(1.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add section-specific list item background on hover */
+.plan-section:nth-child(1) .plan-list li:hover {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.plan-section:nth-child(2) .plan-list li:hover {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.plan-section:nth-child(3) .plan-list li:hover {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.plan-section:nth-child(4) .plan-list li:hover {
+  background: rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.plan-section:nth-child(5) .plan-list li:hover {
+  background: rgba(236, 72, 153, 0.1);
+  border-color: rgba(236, 72, 153, 0.3);
+}
+
+/* Add section-specific list item icon animations */
+.plan-list li:hover .item-icon {
+  animation: iconSpin 0.5s ease-in-out;
+}
+
+@keyframes iconSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add section-specific list item bullet animations */
+.plan-list li:hover:before {
+  animation: bulletPulse 1s infinite;
+}
+
+@keyframes bulletPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+} 

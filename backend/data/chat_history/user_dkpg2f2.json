@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "user_dkpg2f2",
+    "message": "I feel stressed",
+    "timestamp": "2025-05-28T16:18:43.163876",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_dkpg2f2",
+    "message": "I'm sorry to hear that.\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T16:18:46.551409",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_dkpg2f2",
+    "message": "what should i do",
+    "timestamp": "2025-05-28T16:18:56.546634",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_dkpg2f2",
+    "message": "I don't know.\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T16:18:58.444862",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_dkpg2f2",
+    "message": "Drink water",
+    "timestamp": "2025-05-28T16:19:34.303852",
+    "sender": "user",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 5
+    }
+  },
+  {
+    "user_id": "user_dkpg2f2",
+    "message": "I don't know\n\n(Disclaimer: I am not a substitute for professional medical advice. For medical decisions, please consult a healthcare provider.)\nSources: N/A",
+    "timestamp": "2025-05-28T16:19:36.152798",
+    "sender": "bot",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 5
+    }
+  }
+]

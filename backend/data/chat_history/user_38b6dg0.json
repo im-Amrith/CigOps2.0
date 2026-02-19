@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "user_38b6dg0",
+    "message": "hello",
+    "timestamp": "2025-05-28T18:50:47.559468",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_38b6dg0",
+    "message": "I'm here for you every step of the way.",
+    "timestamp": "2025-05-28T18:50:50.391148",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_38b6dg0",
+    "message": "explain about addiction",
+    "timestamp": "2025-05-28T18:51:10.829929",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_38b6dg0",
+    "message": "I know this is tough, but you're doing great!",
+    "timestamp": "2025-05-28T18:51:12.398835",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_38b6dg0",
+    "message": "explain what cravings are",
+    "timestamp": "2025-05-28T18:51:36.490165",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_38b6dg0",
+    "message": "I know this is tough, but you're doing great!",
+    "timestamp": "2025-05-28T18:51:39.187471",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

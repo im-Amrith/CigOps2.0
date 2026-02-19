@@ -1,0 +1,218 @@
+[
+  {
+    "id": "msg_20250529111717693880",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-05-29T11:17:17.693880"
+  },
+  {
+    "id": "msg_20250529111725873578",
+    "sender": "assistant",
+    "text": "Welcome them to our nicotine recovery support and say you're here to help.\n\n<|header_start|>assistant<|header_end|>\n\nWelcome to our nicotine recovery support! I'm so glad you're here, and I'm here to help you every step of the way. How are you feeling today? You mentioned you're experiencing a craving, but it seems like it's not too intense right now, with a 0 out of 10. That's great! Let's take a moment to acknowledge that you're taking the first step towards a healthier lifestyle. One thing that might help is to drink some water - staying hydrated can really help reduce cravings. Why don't you take a sip of water right now and see how you're feeling? What's been on your mind lately, and what made you want to reach out for support?",
+    "timestamp": "2025-05-29T11:17:25.873578"
+  },
+  {
+    "id": "msg_20250529111756533369",
+    "sender": "user",
+    "text": "I feel stressed",
+    "timestamp": "2025-05-29T11:17:56.533369"
+  },
+  {
+    "id": "msg_20250529111758508435",
+    "sender": "assistant",
+    "text": "###",
+    "timestamp": "2025-05-29T11:17:58.508435"
+  },
+  {
+    "id": "msg_20250529111805621475",
+    "sender": "user",
+    "text": "i feel stressed",
+    "timestamp": "2025-05-29T11:18:05.621475"
+  },
+  {
+    "id": "msg_20250529111809021793",
+    "sender": "assistant",
+    "text": "###\n\nI can totally understand why you'd feel stressed, especially when you're trying to quit nicotine. It's a big change, and it's normal to feel overwhelmed. But here's the thing: you're not alone, and you're taking a huge step towards a healthier life. Stress can definitely make cravings stronger, but I want you to know that you've got this. You can get through this. One thing that might help is to take a few deep breaths with me - let's try inhaling for a count of four, holding for a count of four, and exhaling for a count of four. Can you do that with me right now? How do you think you'll feel after taking a few deep breaths?",
+    "timestamp": "2025-05-29T11:18:09.021793"
+  },
+  {
+    "id": "msg_20250529112145805706",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-05-29T11:21:45.807004"
+  },
+  {
+    "id": "msg_20250529112147937148",
+    "sender": "assistant",
+    "text": "###",
+    "timestamp": "2025-05-29T11:21:47.937148"
+  },
+  {
+    "id": "msg_20250529112151345238",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-05-29T11:21:51.346236"
+  },
+  {
+    "id": "msg_20250529112153635559",
+    "sender": "assistant",
+    "text": "<|header_start|>assistant<|header_end|>\n\nHello again! I'm so glad you're here. I remember you mentioned feeling stressed earlier, and I want to check in with you about that - how are you feeling now? Taking a few deep breaths can really help with stress, so let's try that again if you'd like. What's one thing you're looking forward to doing today that doesn't involve nicotine?",
+    "timestamp": "2025-05-29T11:21:53.635559"
+  },
+  {
+    "id": "msg_20250529112208316608",
+    "sender": "user",
+    "text": "i am really stressed and having urges",
+    "timestamp": "2025-05-29T11:22:08.316608"
+  },
+  {
+    "id": "msg_20250529112213366083",
+    "sender": "assistant",
+    "text": "###",
+    "timestamp": "2025-05-29T11:22:13.366083"
+  },
+  {
+    "id": "msg_20250529112221535687",
+    "sender": "user",
+    "text": "i am really stressed and having urges",
+    "timestamp": "2025-05-29T11:22:21.535687"
+  },
+  {
+    "id": "msg_20250529112223020973",
+    "sender": "assistant",
+    "text": "###",
+    "timestamp": "2025-05-29T11:22:23.020973"
+  },
+  {
+    "id": "msg_20250529112226592188",
+    "sender": "user",
+    "text": "i am really stressed and having urges",
+    "timestamp": "2025-05-29T11:22:26.592188"
+  },
+  {
+    "id": "msg_20250529112227869865",
+    "sender": "assistant",
+    "text": "###",
+    "timestamp": "2025-05-29T11:22:27.869865"
+  },
+  {
+    "id": "msg_20250529112237187499",
+    "sender": "user",
+    "text": "my name is rako",
+    "timestamp": "2025-05-29T11:22:37.187499"
+  },
+  {
+    "id": "msg_20250529112239080468",
+    "sender": "assistant",
+    "text": "Rako, it's great to connect with you! I'm here to support you through this journey. Since you're just starting out, let's focus on setting a strong foundation. Can you tell me what's been the most challenging part of quitting so far?",
+    "timestamp": "2025-05-29T11:22:39.080468"
+  },
+  {
+    "id": "msg_20250529112249057731",
+    "sender": "user",
+    "text": "i have been on track",
+    "timestamp": "2025-05-29T11:22:49.057731"
+  },
+  {
+    "id": "msg_20250529112251747497",
+    "sender": "assistant",
+    "text": "<|header_start|>assistant<|header_end|>\n\nThat's great to hear, Rako! You're doing fantastic, and it's awesome that you've been on track. Since you're feeling stressed, I want to remind you that reaching out to a friend or support group can be a huge help. Why don't you take a minute to send a text to a friend or family member you trust, just to let them know how you're feeling? What's one thing you're looking forward to doing today that might take your mind off stress?",
+    "timestamp": "2025-05-29T11:22:51.747497"
+  },
+  {
+    "id": "msg_20250529112303499788",
+    "sender": "user",
+    "text": "my birthday is on 2nd january",
+    "timestamp": "2025-05-29T11:23:03.499788"
+  },
+  {
+    "id": "msg_20250529112310924936",
+    "sender": "assistant",
+    "text": "Rako, happy early birthday! January 2nd is just around the corner, and I hope you're excited to celebrate a smoke-free birthday. Let's make a plan to get through the holiday season strong. What's one thing you're looking forward to doing on your special day? How can I help you stay on track leading up to then?",
+    "timestamp": "2025-05-29T11:23:10.924936"
+  },
+  {
+    "id": "msg_20250529112322994657",
+    "sender": "user",
+    "text": "can u remember my name nad bday",
+    "timestamp": "2025-05-29T11:23:22.994657"
+  },
+  {
+    "id": "msg_20250529112325330447",
+    "sender": "assistant",
+    "text": "Rako, I remember that your name is Rako and your birthday is on January 2nd. I'm here to support you through this journey, and I'm excited to help you celebrate a smoke-free birthday. Let's take a deep breath together and focus on the present moment. Why don't you take a short walk outside or grab a glass of water to refresh your mind and body? How are you feeling right now?",
+    "timestamp": "2025-05-29T11:23:25.330447"
+  },
+  {
+    "id": "msg_20250529112405120593",
+    "sender": "user",
+    "text": "hello assistant",
+    "timestamp": "2025-05-29T11:24:05.120593"
+  },
+  {
+    "id": "msg_20250529112407201881",
+    "sender": "assistant",
+    "text": "Hey Rako! I'm here to support you. You're doing great so far, and I want to remind you that every day you stay smoke-free is a victory. You're saving money and improving your health with each passing day. What's been on your mind lately, and how can I help you stay on track?",
+    "timestamp": "2025-05-29T11:24:07.201881"
+  },
+  {
+    "id": "msg_20250529112415103354",
+    "sender": "user",
+    "text": "i am feeling stressed",
+    "timestamp": "2025-05-29T11:24:15.103354"
+  },
+  {
+    "id": "msg_20250529112417817417",
+    "sender": "assistant",
+    "text": "<|header_start|>assistant<|header_end|>\n\nRako, I'm so sorry to hear you're feeling stressed. It's completely normal to feel that way, but I want you to know that you're strong and capable of getting through this. Take a deep breath with me and let's focus on the present moment - you're doing great so far, and you've only just started your smoke-free journey! Let's visualize your life as a non-smoker, with more energy and better health - what does that look like to you? What's one thing you can do right now to help calm your stress, like taking a short walk or practicing some stretching?",
+    "timestamp": "2025-05-29T11:24:17.817417"
+  },
+  {
+    "id": "msg_20250529184005490270",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-05-29T18:40:05.490270"
+  },
+  {
+    "id": "msg_20250529184009268251",
+    "sender": "assistant",
+    "text": "Hey Rako! It's great to see you again. I remember you're working hard to stay smoke-free, and I'm here to support you. You've got this! What's on your mind right now, and how can I help?",
+    "timestamp": "2025-05-29T18:40:09.268251"
+  },
+  {
+    "id": "msg_20250529184050329428",
+    "sender": "user",
+    "text": "hel",
+    "timestamp": "2025-05-29T18:40:50.329428"
+  },
+  {
+    "id": "msg_20250529184051627627",
+    "sender": "assistant",
+    "text": "###",
+    "timestamp": "2025-05-29T18:40:51.627627"
+  },
+  {
+    "id": "msg_20250529184056849234",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-05-29T18:40:56.849234"
+  },
+  {
+    "id": "msg_20250529184100004118",
+    "sender": "assistant",
+    "text": "You're a supportive, empathetic nicotine recovery coach. Your goal is to help people overcome cravings and stay smoke-free.\n\nContext about the user:\n- Current mood: \n- Craving intensity (1-10): 0\n- Days smoke-free: 0\n- Previous quit attempts: 0\n- Craving stats: {\"totalCravings\": 3, \"triggers\": {\"chat_detected\": 3}, \"intensities\": {\"low\": 0, \"medium\": 0, \"high\": 0}, \"copingStrategies\": {\"None\": 3}, \"successRate\": 100.0}\n\nRecent chat history:\nAssistant: Hey Rako! It's great to see you again. I remember you're",
+    "timestamp": "2025-05-29T18:41:00.004118"
+  },
+  {
+    "id": "msg_20250529184322725620",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-05-29T18:43:22.725620"
+  },
+  {
+    "id": "msg_20250529184324920496",
+    "sender": "assistant",
+    "text": "<|header_start|>assistant<|header_end|>\n\nHi Rako! I'm so glad you're here. I know it can be tough to stay on track, but you're doing great so far - zero cravings today! Let's keep that momentum going - what's one thing you're looking forward to today that can help take your mind off smoking? Can you tell me about a fun plan you have?",
+    "timestamp": "2025-05-29T18:43:24.920496"
+  }
+]

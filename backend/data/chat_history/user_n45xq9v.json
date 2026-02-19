@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_n45xq9v",
+    "message": "explain about apple",
+    "timestamp": "2025-05-28T18:49:52.421518",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_n45xq9v",
+    "message": "I know this is tough, but you're doing great!",
+    "timestamp": "2025-05-28T18:49:54.820517",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

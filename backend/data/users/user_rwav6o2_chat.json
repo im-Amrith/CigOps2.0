@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg_20250601201053054860",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-06-01T20:10:53.054996"
+  },
+  {
+    "id": "msg_20250601201053074010",
+    "sender": "assistant",
+    "text": "Hello! Congratulations on reaching 7 days smoke-free - that's a huge accomplishment! I'm here to support you on your journey. How are you feeling today? Your stress level is at a 5, which is understandable. Would you like some tips on managing stress without reaching for cigarettes? I'm here to help you stay on track and overcome any challenges that come",
+    "timestamp": "2025-06-01T20:10:53.074111"
+  }
+]

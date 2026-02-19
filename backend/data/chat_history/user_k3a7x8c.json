@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "user_k3a7x8c",
+    "message": "hi",
+    "timestamp": "2025-05-29T05:47:17.687669",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_k3a7x8c",
+    "message": "Welcome them to our nicotine recovery support and say you're here to help.\n\n<|header_start|>assistant<|header_end|>\n\nWelcome to our nicotine recovery support! I'm so glad you're here, and I'm here to help you every step of the way. How are you feeling today? You mentioned you're experiencing a craving, but it seems like it's not too intense right now, with a 0 out of 10. That's great! Let's take a moment to acknowledge that you're taking the first step towards a healthier lifestyle. One thing that might help is to drink some water - staying hydrated can really help reduce cravings. Why don't you take a sip of water right now and see how you're feeling? What's been on your mind lately, and what made you want to reach out for support?",
+    "timestamp": "2025-05-29T05:47:25.875594",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_k3a7x8c",
+    "message": "I feel stressed",
+    "timestamp": "2025-05-29T05:47:56.511289",
+    "sender": "user",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 7
+    }
+  },
+  {
+    "user_id": "user_k3a7x8c",
+    "message": "###",
+    "timestamp": "2025-05-29T05:47:58.511345",
+    "sender": "bot",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 7
+    }
+  },
+  {
+    "user_id": "user_k3a7x8c",
+    "message": "i feel stressed",
+    "timestamp": "2025-05-29T05:48:05.601197",
+    "sender": "user",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 7
+    }
+  },
+  {
+    "user_id": "user_k3a7x8c",
+    "message": "###\n\nI can totally understand why you'd feel stressed, especially when you're trying to quit nicotine. It's a big change, and it's normal to feel overwhelmed. But here's the thing: you're not alone, and you're taking a huge step towards a healthier life. Stress can definitely make cravings stronger, but I want you to know that you've got this. You can get through this. One thing that might help is to take a few deep breaths with me - let's try inhaling for a count of four, holding for a count of four, and exhaling for a count of four. Can you do that with me right now? How do you think you'll feel after taking a few deep breaths?",
+    "timestamp": "2025-05-29T05:48:09.025326",
+    "sender": "bot",
+    "context": {
+      "mood": "Stressed",
+      "cravings": 7
+    }
+  }
+]

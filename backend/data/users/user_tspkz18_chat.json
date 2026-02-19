@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250601041708893547",
+    "sender": "user",
+    "text": "I feel stressed",
+    "timestamp": "2025-06-01T04:17:08.893667"
+  },
+  {
+    "id": "msg_20250601041708897031",
+    "sender": "assistant",
+    "text": "I can sense that you're feeling stressed, and it's completely normal to experience stress during the recovery process. You've made it 7 days without smoking, which is a huge accomplishment! \n\nStress can trigger cravings, but since your current craving level is 0, you're doing great. To manage your stress, have you considered trying relaxation techniques like deep breathing",
+    "timestamp": "2025-06-01T04:17:08.897098"
+  },
+  {
+    "id": "msg_20250601041728996924",
+    "sender": "user",
+    "text": "hy",
+    "timestamp": "2025-06-01T04:17:28.997177"
+  },
+  {
+    "id": "msg_20250601041729024481",
+    "sender": "assistant",
+    "text": "You've made it 7 days without smoking, that's something to be proud of. How are you feeling today? Your stress level is at a 5, is there anything in particular that's causing you stress, and would you like some tips on managing it?",
+    "timestamp": "2025-06-01T04:17:29.024543"
+  }
+]

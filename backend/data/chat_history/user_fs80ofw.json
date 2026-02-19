@@ -1,0 +1,22 @@
+[
+  {
+    "user_id": "user_fs80ofw",
+    "message": "hello",
+    "timestamp": "2025-05-28T14:05:02.553217",
+    "sender": "user",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  },
+  {
+    "user_id": "user_fs80ofw",
+    "message": "There was an error initializing the model. Please check your credentials and try again.",
+    "timestamp": "2025-05-28T14:05:45.306505",
+    "sender": "bot",
+    "context": {
+      "mood": "",
+      "cravings": 0
+    }
+  }
+]

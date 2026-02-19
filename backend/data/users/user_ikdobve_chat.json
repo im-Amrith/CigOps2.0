@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250601035751760670",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-06-01T03:57:51.760829"
+  },
+  {
+    "id": "msg_20250601035751777668",
+    "sender": "assistant",
+    "text": "Hello! Congratulations on reaching 7 days smoke-free - that's a huge accomplishment! I'm here to support you every step of the way. How are you feeling today? Your stress level is at a 5, which is understandable, but remember that it's normal to experience some stress when quitting smoking. It's great that your craving level is at 0,",
+    "timestamp": "2025-06-01T03:57:51.777766"
+  },
+  {
+    "id": "msg_20250601040024450212",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-06-01T04:00:24.450293"
+  },
+  {
+    "id": "msg_20250601040024502137",
+    "sender": "assistant",
+    "text": "You're doing great, user_ikdobve! Congratulations on reaching 7 days smoke-free - that's a huge milestone. I'm here to support you, and I'm glad you're feeling calm with a craving level of 0 right now. However, I notice your stress level is at 5, which can sometimes trigger cravings. Would you like some tips",
+    "timestamp": "2025-06-01T04:00:24.502349"
+  }
+]

@@ -1,0 +1,62 @@
+.calm-now-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background-color: var(--color-primary-violet);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(138, 43, 226, 0.3);
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.calm-now-button:hover {
+  background-color: var(--color-secondary-violet);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(138, 43, 226, 0.4);
+}
+
+.calm-now-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(138, 43, 226, 0.2);
+}
+
+.calm-now-button:disabled {
+  background-color: var(--color-dark-surface);
+  color: var(--color-text-dark);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.calm-now-button .icon {
+  font-size: 1.2rem;
+}
+
+.calm-now-button.loading {
+  background-color: var(--color-secondary-violet);
+  cursor: wait;
+}
+
+.calm-now-button .spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+} 

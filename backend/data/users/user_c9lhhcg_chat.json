@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20250530130016409817",
+    "sender": "user",
+    "text": "hi",
+    "timestamp": "2025-05-30T13:00:16.409817"
+  },
+  {
+    "id": "msg_20250530130016416481",
+    "sender": "assistant",
+    "text": "You're doing great, user_c9lhhcg! Congratulations on reaching 7 days smoke-free - that's a huge accomplishment! I'm here to support you every step of the way. How are you feeling today? Your stress level is",
+    "timestamp": "2025-05-30T13:00:16.416481"
+  },
+  {
+    "id": "msg_20250530130103985735",
+    "sender": "user",
+    "text": "my hands are shaking due to not smoking,what should i do",
+    "timestamp": "2025-05-30T13:01:03.985735"
+  },
+  {
+    "id": "msg_20250530130104023936",
+    "sender": "assistant",
+    "text": "- Anxiety is a common symptom of nicotine withdrawal. It's essential to address this feeling to maintain your progress. Try relaxation techniques like yoga, meditation, or guided imagery. Engage in activities that bring you joy and help distract you from cravings. Consider",
+    "timestamp": "2025-05-30T13:01:04.023936"
+  }
+]

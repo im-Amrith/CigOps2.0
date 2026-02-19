@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_20260217180149989404",
+    "sender": "user",
+    "text": "Explain dopamine receptors",
+    "timestamp": "2026-02-17T18:01:49.989565"
+  },
+  {
+    "id": "msg_20260217180149994484",
+    "sender": "assistant",
+    "text": "I'm experiencing some technical difficulties. Please try again in a moment.",
+    "timestamp": "2026-02-17T18:01:49.994587"
+  },
+  {
+    "id": "msg_20260217180226589230",
+    "sender": "user",
+    "text": "help",
+    "timestamp": "2026-02-17T18:02:26.589332"
+  },
+  {
+    "id": "msg_20260217180226632865",
+    "sender": "assistant",
+    "text": "I'm experiencing some technical difficulties. Please try again in a moment.",
+    "timestamp": "2026-02-17T18:02:26.632943"
+  }
+]

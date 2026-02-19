@@ -1,0 +1,44 @@
+[
+  {
+    "user_id": "user_gi82tq3",
+    "message": "I feel stressed",
+    "timestamp": "2025-05-28T12:34:51.347510",
+    "sender": "user",
+    "context": {}
+  },
+  {
+    "user_id": "user_gi82tq3",
+    "message": "I'm here for you. Stress is a common trigger. Chew gum or drink a glass of water to keep your mouth busy. Remember, this feeling will pass. Drinking water and going for a short walk can help reduce cravings.",
+    "timestamp": "2025-05-28T12:34:51.349524",
+    "sender": "bot",
+    "context": {}
+  },
+  {
+    "user_id": "user_gi82tq3",
+    "message": "I slipped up",
+    "timestamp": "2025-05-28T12:34:56.354867",
+    "sender": "user",
+    "context": {}
+  },
+  {
+    "user_id": "user_gi82tq3",
+    "message": "You're not alone in this journey. Relapse is part of the journey for many. Don't be too hard on yourself. Reflect on what triggered it and let's plan for next time. Reward yourself for every smoke-free day. You deserve it!",
+    "timestamp": "2025-05-28T12:34:56.384544",
+    "sender": "bot",
+    "context": {}
+  },
+  {
+    "user_id": "user_gi82tq3",
+    "message": "hello",
+    "timestamp": "2025-05-28T12:35:00.858977",
+    "sender": "user",
+    "context": {}
+  },
+  {
+    "user_id": "user_gi82tq3",
+    "message": "Let's get through this together. How are you feeling today? Remember, I'm here to support you. If you slip, don't give up. Every attempt brings you closer to success.",
+    "timestamp": "2025-05-28T12:35:00.880365",
+    "sender": "bot",
+    "context": {}
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg_20250530125538529695",
+    "sender": "user",
+    "text": "hello",
+    "timestamp": "2025-05-30T12:55:38.529695"
+  },
+  {
+    "id": "msg_20250530125538533706",
+    "sender": "assistant",
+    "text": "Hello! Congratulations on reaching 7 days smoke-free - that's a huge accomplishment! I'm here to support you on your journey. How are you feeling today? Your stress level is at a 5, which is understandable. Would you like",
+    "timestamp": "2025-05-30T12:55:38.533706"
+  }
+]

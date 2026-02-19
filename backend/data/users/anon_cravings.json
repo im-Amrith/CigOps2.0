@@ -1,0 +1,26 @@
+[
+  {
+    "trigger": "chat_detected",
+    "intensity": "0",
+    "notes": "i am really stressed and having urges",
+    "smoked": false,
+    "timestamp": "2025-05-29T11:22:08.357667",
+    "id": "craving_20250529112208"
+  },
+  {
+    "trigger": "chat_detected",
+    "intensity": "0",
+    "notes": "i am really stressed and having urges",
+    "smoked": false,
+    "timestamp": "2025-05-29T11:22:21.565704",
+    "id": "craving_20250529112221"
+  },
+  {
+    "trigger": "chat_detected",
+    "intensity": "0",
+    "notes": "i am really stressed and having urges",
+    "smoked": false,
+    "timestamp": "2025-05-29T11:22:26.622266",
+    "id": "craving_20250529112226"
+  }
+]
