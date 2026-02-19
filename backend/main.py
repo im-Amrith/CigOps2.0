@@ -5,7 +5,7 @@ import os
 import logging
 from dotenv import load_dotenv
 from routes import query, calm, dashboard, plan, knowledge, craving, user, analytics, voice_chat, game, resources, chat
-from backend.services.routes import analyzer
+from services.routes import analyzer
 
 # Load environment variables
 load_dotenv()
