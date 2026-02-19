@@ -20,12 +20,7 @@ app = FastAPI(title="Nicotine Recovery AI Assistant")
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",  # Frontend development server
-        "http://localhost:3000",  # Alternative frontend development port
-        "http://127.0.0.1:5173",  # Frontend development server (alternative)
-        "http://127.0.0.1:3000",  # Alternative frontend development port
-    ],
+    allow_origin_regex=r"^https://.*\.vercel\.app$|http://localhost:\d+|http://127\.0\.0\.1:\d+",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
