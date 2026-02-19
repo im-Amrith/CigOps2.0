@@ -18,7 +18,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Create necessary directories
-RUN mkdir -p data/chat_history data/users data/logs data/knowledge_base/chroma
+RUN mkdir -p data/chat_history data/users data/logs data/knowledge_base/chroma static/audio
 
 # Expose port 7860 (Hugging Face Spaces default)
 EXPOSE 7860
